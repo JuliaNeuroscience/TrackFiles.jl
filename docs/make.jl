@@ -4,11 +4,11 @@ using Documenter
 makedocs(;
     modules=[TrackFiles],
     authors="Zachary P. Christensen <zchristensen7@gmail.com> and contributors",
-    repo="https://github.com/Tokazama/TrackFiles.jl/blob/{commit}{path}#L{line}",
+    repo="https://github.com/JuliaNeuroscience/TrackFiles.jl/blob/{commit}{path}#L{line}",
     sitename="TrackFiles.jl",
     format=Documenter.HTML(;
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://Tokazama.github.io/TrackFiles.jl",
+        canonical="https://JuliaNeuroscience.github.io/TrackFiles.jl",
         assets=String[],
     ),
     pages=[
@@ -17,5 +17,5 @@ makedocs(;
 )
 
 deploydocs(;
-    repo="github.com/Tokazama/TrackFiles.jl",
+    repo="github.com/JuliaNeuroscience/TrackFiles.jl",
 )
